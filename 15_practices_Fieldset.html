@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practices Fieldset</title>
+</head>
+<body>
+    <fieldset style="width: 50%;">
+        <legend>Registration page</legend> 
+
+        <form action="#">
+            <p>
+                <label for="Employee Name">Employee Name :</label>
+                <input type="text" name="Employee Name" id="Employee Name" placeholder="Enter your name ">
+            </p>
+
+            <p>
+                <label for="Job">Job :</label>
+                <select name="Job" id="Job" multiple>
+                <option value="">Salesman</option>
+                <option value="">Manager</option>
+                <option value="">Clerk</option>
+                <option value="">Analyst</option>
+            </select>
+            </p>
+            <p>
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </p>
+            <p>
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+            </p>
+            <p>
+                <label for="pre-password">Pre-Password :</label>
+                <input type="password" name="pre-password" id="pre-password" placeholder="Comfirm your password">
+            </p>
+            <p>
+                <label for="Gender">Gender</label>
+                <input type="radio" name="Gender" id="Male" value="Male">
+                <label for="Male">Male</label>
+
+                <input type="radio" name="Gender" id="Female" value="Female">
+                <label for="Female">Female</label>
+            </p>
+            <p>
+                <label for="Birthday">Birthday</label>
+                <input type="date" name="Birthday" id="Birthday">
+            </p>
+            <p>
+                <label for="Salary">Salary</label>
+                <input type="text" name="Salary" id="Salary" placeholder="Enter your Salaly">
+            </p>
+            <p>
+                <label for="Commission">Commission</label>
+                <input type="text" name="Commission" id="Commission">
+            </p>
+            <p>
+                <label for="Total Salary">Total Salary</label>
+                <input type="text" name="Total Salary" id="Total Salary">
+            </p>
+            <p>
+                <button>Submit</button>
+                <button>Reset</button>
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
